@@ -4,21 +4,50 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 200px;
+}
+.box-one{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.header-zone{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+#box-two{
+    width: 35%;
+    margin-left: 4%;
+    padding-left: 5%;
 }
 h1{
-    font-size: 50px;
+    font-size: 46px;
+}
+h3{
+    font-weight: bold;
 }
 span{
     color: orange;
 }
+p{
+    color: dimgray;
+}
 a{
     text-decoration: none;
-    background-color: tomato;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
     color: white;
-    padding: 10px 30px;
-    border-radius: 25px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
 }
 img{
     background-color: tomato;
     border-radius: 250px;
+    width: 100%;
+    opacity: 0.5;    
+}
+img:hover{
+    opacity: 1.0;
+    transition: 0.7s;
 }
