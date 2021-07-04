@@ -21,6 +21,11 @@ section{
     margin-left: 4%;
     padding-left: 5%;
 }
+.body-zone{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 h1{
     font-size: 46px;
 }
@@ -50,4 +55,10 @@ img{
 img:hover{
     opacity: 1.0;
     transition: 0.7s;
+}
+footer{
+    text-align: center;
+}
+footer span{
+    color: orange;
 }
